@@ -1,6 +1,6 @@
 # Comfy Slop Dev Helper 
 
-PowerShell/Batch utilities for Windows to help during non-agentic LLM-assisted node development (i.e. using lmarena.ai). 
+PowerShell/Batch utilities for Windows to help during non-agentic LLM-assisted node development (i.e. lmarena.ai, Google AI studio, Claude or ChatGPT free tiers). 
 
 Specifically, these scripts:
 
