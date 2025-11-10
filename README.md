@@ -151,11 +151,10 @@ Wrote selected contents to: C:\repos\my-node\selected_files_20251110_193421.txt
 
 
 ## Contributing
-
-    Issues and PRs welcome. Please include:
-        Your Windows version
-        PowerShell version ($PSVersionTable.PSVersion)
-        Repro steps and any console output
+Issues and PRs welcome. Please include:
+- Your Windows version
+- PowerShell version ($PSVersionTable.PSVersion)
+- Repro steps and any console output
 
 ## License
 
