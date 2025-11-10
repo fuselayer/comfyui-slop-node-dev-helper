@@ -122,7 +122,8 @@ Note: File selection is interactive by default. If you want a fully non‑intera
 Security
 
 The .bat launches PowerShell with -ExecutionPolicy Bypass only for this run, to avoid policy friction on developer machines. If you prefer, run the .ps1 directly in a console session where you’ve set a suitable execution policy.
-Example session
+
+Example session:
 
 ```
 
