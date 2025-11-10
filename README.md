@@ -4,7 +4,7 @@ PowerShell/Batch utilities for Windows to help during non-agentic LLM-assisted n
 
 Specifically, these scripts:
 
-- Print an ASCII file tree of a repo (files first, then folders)
+- Print an ASCII file tree of a working directory (files first, then folders)
 - Save that tree to <foldername>.txt wrapped in Markdown triple backticks
 - Interactively collect and export the contents of selected files into a single text file with fenced code blocks (to be sent to the LLM)
 - Exclude noisy directories like __pycache__ and .git
