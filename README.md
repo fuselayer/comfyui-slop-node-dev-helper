@@ -1,12 +1,14 @@
 # Comfy Slop Dev Helper 
 
-PowerShell/Batch utilities for Windows that:
+PowerShell/Batch utilities for Windows to help during non-agentic LLM-assisted node development (i.e. using lmarena.ai). 
 
-    Print an ASCII file tree of a repo (files first, then folders)
-    Save that tree to <foldername>.txt wrapped in Markdown triple backticks
-    Interactively collect and export the contents of selected files into a single text file with fenced code blocks
-    Exclude noisy directories like __pycache__ and .git
-    Show a persistent banner “Comfy Slop Dev Helper” in the console
+Specifically, these scripts:
+
+- Print an ASCII file tree of a repo (files first, then folders)
+- Save that tree to <foldername>.txt wrapped in Markdown triple backticks
+- Interactively collect and export the contents of selected files into a single text file with fenced code blocks (to be sent to the LLM)
+- Exclude noisy directories like __pycache__ and .git
+
 
 Ideal for ComfyUI custom-node work where you want a quick tree snapshot plus a neatly bundled text file of selected sources for sharing or debugging.
 Contents
@@ -15,7 +17,8 @@ Contents
     CSDH.bat — optional launcher that handles spaces/parentheses in paths
 
 You can name these files anything. The .bat only needs to point to the .ps1 by name.
-Requirements
+
+## Requirements
 
     Windows 10/11
     Windows PowerShell 5.1 or PowerShell 7+
